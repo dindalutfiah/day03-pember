@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punya Dinda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#EAB5D0" />
+
+    <Button
+        android:id="@+id/btnMoveWithData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MoveWithData"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#EAB5D0"
+        android:layout_below="@+id/btnMove"/>
+
+    <Button
+        android:id="@+id/btnMoveWithObj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MoveWithObj"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#EAB5D0"
+        android:layout_below="@+id/btnMoveWithData"/>
+
+    <Button
+        android:id="@+id/btnImplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#EAB5D0"
+        android:layout_below="@+id/btnMoveWithObj"/>
+
+
+</RelativeLayout>
